@@ -1,0 +1,17 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: rgb(114, 114, 114);
+}
+body {
+    background-color: rgb(69, 69, 69);
+}
+
+header, footer {
+    padding: 20px;
+    color: grey;
+    background-color: rgb(237, 237, 237);
+    padding: 20px;
+    clear: left;
+    text-align: center;
+}
