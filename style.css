@@ -1,63 +1,60 @@
 
-
 body {
-    background-color: rgb(69, 69, 69);
+    background-color:  #999;
     color: grey;
     font-size: 18px;
+    width: 966px;
 }
 
 header, footer, nav {
-  background-color: rgb(237, 237, 237);
+  background-color: #eee;
   color: grey;
-  clear: left;
   text-align: center;
-  padding: 20px;
-  margin: 20px;
 }
   
 .section {
   background-color: #eee;
   float: left;
-  position: relative;
   text-align: center;
-  padding: 10px;
   width: 60%;
   height: 300px;
-  margin: 20px;
-
   }
+
 .aside {
     background-color:  #eee;
-    float: left;
+    float: right;
     text-align: center;
-    padding: 10px;
-    width: 22%; 
+    width: 38%; 
     height: 300px;
-    margin: 20px;
   }
  
+  .clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+  }
+
   .article {
     background-color: #999;
-    position: absolute;
+    color: #eee;
     text-align: center;
-    margin: 10px;
     height: 70%;
     width: 90%;
-    bottom: 5%;
-  
   }
   
 
 .h1 {
   background-color:  #eee;
+  color: grey;
+  text-align: center;
   height: 20%;
   width: 90%;
-  margin: 20px;
   }
 
   .p {
     background-color:  #eee;
+    color: grey;
+    text-align: center;
     height: 20%;
-    margin: 20px;
-  
+    width: 90%;
   }
